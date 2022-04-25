@@ -1,9 +1,9 @@
 const random = Math.floor(Math.random() * (3 - 1 + 1) ) + 1;
-function randomWinner(buttonNumber) {
+function randomDraw(buttonNumber) {
   if (random == buttonNumber) {
-  	alert("YOU WIN! CONGRATULATIONS!");
+  	alert("CONGRATULATIONS! Winner Winner Chicken Dinner");
   } else {
-  	alert("YOU LOSE! The winner button was " + random + ". TRY AGAIN!");
+  	alert("It was button #" + random + ". Click OK to Try again!");
   }
   location.reload();
 }
